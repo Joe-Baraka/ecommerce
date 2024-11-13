@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background-color: #751a1a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Product Section Styling */
+#products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Cart Section Styling */
+#cart {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+/* Reviews Section Styling */
+#reviews {
+    padding: 2rem;
+    background-color: #eef;
+}
+
+/* Profile Section Styling */
+#profile {
+    padding: 2rem;
+    background-color: #f1f1f1;
+}
+
+/* Footer Styling */
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-Commerce Web App</title>
+    <link rel="stylesheet" href="HOMEPAGE.CSS">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My E-Commerce Site</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#cart">Cart</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#profile">Profile</a>
+        </nav>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="path/to/image1.jpg" alt="Product 1">
+                <p>Product 1</p>
+                <button onclick="addToCart('Product 1')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="path/to/image2.jpg" alt="Product 2">
+                <p>Product 2</p>
+                <button onclick="addToCart('Product 2')">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cartItems"></div>
+        <p>Total: $<span id="totalAmount">0</span></p>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <p>"Great service and quality!"</p>
+            <p>- Customer 1</p>
+        </div>
+        <div class="review">
+            <p>"Loved the product range."</p>
+            <p>- Customer 2</p>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <h2>Company Profile</h2>
+        <p>We are dedicated to providing top-quality products and customer satisfaction.</p>
+        
+        <h2>Your Profile</h2>
+        <p>Name: John Doe</p>
+        <p>Email: johndoe@example.com</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Connect with Us</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div class="contact-info">
+            <p>Email: example@gmail.com</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Location: Nairobi, Branches: Central, West</p>
+        </div>
+    </footer>
+
+    <script src="HOMEPAGE.JS"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+nav li:hover > a {
+    color: purple;
+}
+
+/* Button hover and underline effect */
+nav a:hover {
+    color: rgb(212, 6, 212);
+    text-decoration: none;
+    transition: 0.5s;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+nav li:hover > a {
+    border-bottom: 2px solid red;
+}
+
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: dodgerblue;
+    list-style: none;
+    padding: 50p;
+}
+
+.dropdown-content li {
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+}
+
+.dropdown-content a:hover {
+    color: purple;
+}
+
+/* Search bar */
+.search input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #f8ecec;
+    border-radius: 10px;
+}
+
+.search button {
+    padding: 8px 10px;
+    background-color: purple;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search button:hover {
+    background-color: red;
+}

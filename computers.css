@@ -1,0 +1,230 @@
+
+.shop-name h1{
+    color: white;
+    font-weight:30px ;
+    font-family: "Audiowide", sans-serif;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(54, 207, 54);
+
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: rgb(75, 27, 165);
+    
+}
+
+#sign-in{
+    background-color: dodgerblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem 5rem;
+    border-radius: 10px;
+    border-color: none;
+    margin-right: 7rem;
+    font-size: 1rem;
+}
+
+#sign-up{
+    background-color: rgb(6, 145, 6);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem 5rem;
+    border-radius: 10px;
+    border-color: none;
+    margin-left: 7rem;
+    font-size: 1rem;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+body h1{
+    color: blue;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-card {
+    width: 18%;
+    margin: 10px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container{
+    background-color: black;
+    width: 100px;
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.product-card .brand {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    font-size: 16px;
+    color: green;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: red;
+}
+
+.customer-review{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+/*FOOTER SECTION FORMATINGS*/
+footer{
+    background-color:rgb(31, 122, 214);
+    max-width: 100%;
+    bottom: 0px;
+    padding-top: 20px;
+}
+
+.f-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-container a,span{
+color: white;
+padding: 10px;
+font-size: 20px;
+text-decoration: none;
+}
+
+.f-container .quicklinks a{
+    display: block;
+}
+
+.f-container .brands a{
+    display: block;
+    margin: 10px;
+}
+
+
+
+
+
+.marquee{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    width: 100%;
+    padding: 30px 10px;
+}
+
+/*ABOUT CMC AND THEIR LOCATION TYPES*/
+.about-us{
+    margin: 20px 15px 35px 0px;
+}
+
+.imgleft{
+    margin-left: 50px;
+}
+
+.imgleft{
+    float: right;
+}
+.imgleft img{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 0px;
+}
+
+
+.pararight{
+    margin-bottom: 200px;
+    margin-left: 20px;
+}
+
+#btn1{
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px 40px;
+    margin:30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    box-shadow: 0px 10px 13px black;
+}
+
+.buttons{
+    margin-bottom: 200px;
+}
+
+#btn1:hover{
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.video-container video{
+    width: 100%;
+    max-height: 800px;
+    filter: blur(5PX);
+    transform: scale(1.1);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+}
